@@ -1,0 +1,21 @@
+{
+    "name": "mint/evaluation-back-oquiz-dj-hhead",
+    "description": "eval back oquiz",
+    "require": {
+        "altorouter/altorouter": "^1.2",
+        "league/plates": "^3.3",
+        "symfony/var-dumper": "^3.4"
+    },
+    "authors": [
+        {
+            "name": "DjHHead",
+            "email": "hhead2214@hotmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Oquiz\\": "src/"
+      }
+    }
+
+}

@@ -1,0 +1,290 @@
+body {
+  margin-left: 10%;
+  margin-right: 12%;
+}
+
+
+h1 {
+  color: #387cb8;
+  font-weight: bold;
+}
+
+#warpzone{
+  color: red;
+}
+
+#user {
+  font-weight: bold;
+}
+
+.dialog {
+  background-color: #dff0d8;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  height: 3.6rem;
+
+}
+.dialog p {
+  padding-top: 0.6rem;
+  margin-bottom: 0px;
+  margin-left: 1rem;
+}
+
+.dialog a {
+  padding-bottom: 0.6rem;
+  margin-left: 1rem;
+}
+
+#navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#navigation .btn {
+    border: 0px;
+    margin-top: 10px;
+}
+
+#navigation a :hover {
+    color: white;
+    text-decoration: none;
+}
+
+.account {
+  margin-top: 0.9rem;
+  margin-right: 1rem;
+  color: #078bff;
+  font-size: 1.1rem;
+  font-style: italic;
+  width: 20rem;
+  text-align: right;
+}
+
+.footer {
+  display: block;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  position: fixed;
+  bottom : -31px;
+  width: 78%;
+}
+.footer p{
+  text-align: center;
+  font-size: 1rem;
+
+}
+main {
+  font-family:
+}
+
+h3 {
+  color: #387cb8;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.nbQuestions {
+  background-color: #777777;
+  font-size: 0.8rem;
+  color: white;
+  border-radius: 15px;
+  padding: 3px 11px;
+  margin-left: 1rem;
+  font-weight: bold;
+
+
+}
+
+.quizDescription {
+  font-weight: bold;
+}
+
+.quizAuteur {
+  font-size: 0.9rem;
+}
+
+.quizzAuteur {
+  font-size: 0.8rem;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box {
+  width: 30rem;
+  line-height: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.questionBox {
+  width: 24rem;
+  line-height: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid lightgrey;
+}
+
+.upPart {
+  height: 8rem;
+  border: 1px solid lightgrey;
+}
+
+.true{
+  background-color: #dff0d8;
+}
+
+.false{
+  background-color: #ffbebe;
+}
+
+.correct{
+  background-color: #8dff60;
+  padding: 0.4rem;
+}
+
+.wrong{
+  background-color: #ff5151;
+  padding: 0.4rem;
+}
+
+.question {
+  margin: 0.6rem 1.1rem 1.5rem 1.5rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+.level {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  color: white;
+  padding: 0.4rem;
+  font-weight: bold;
+  float: right;
+}
+
+.Débutant{
+  background-color: #5cb85c;
+}
+
+.Confirmé{
+  background-color: #f0ad4e;
+}
+
+.Expert{
+  background-color: #d9534f;
+}
+
+.centerPart {
+  height: 10rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  border:
+}
+
+.downPart {
+  height: 6rem;
+  border: 1px solid lightgrey;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  position: relative;
+}
+.anecdote {
+  margin-top: 0.5rem;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  font-style: italic;
+}
+
+.lienWiki {
+  position: absolute;
+  bottom: 0.3rem;
+  left: 0.8rem;
+}
+
+.form-check {
+  margin-top: 0.5rem;
+}
+
+label {
+  margin-top: 0.5rem;
+}
+
+.btn-block {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
+.upTheFooter {
+  height: 50px;
+  background-color: white;
+  width: 100%;
+}
+
+.monCompte1 {
+  color: white;
+  background-color: #337ab7;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 6px -3px 33px grey;
+  width: 50%;
+  margin: auto;
+
+}
+
+.monCompte1 h2, .monCompte2 h2{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.monCompte2 {
+  color: white;
+  background-color: #337ab7;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 6px -3px 33px grey;
+  width: 100%;
+  margin: auto;
+
+}
+
+.userLine {
+  font-size: 1.7rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.userGeneric {
+  text-decoration: underline;
+}
+
+.userDynamic {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.box1 {
+  width: 25rem;
+  line-height: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: #00000069;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: white
+;
+}
